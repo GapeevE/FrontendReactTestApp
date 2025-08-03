@@ -1,0 +1,122 @@
+label {
+    color: #0D5ADC;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+th, td {
+    padding: 32px 20px;
+    text-align: left;
+    border-bottom: 1px solid #CDCFD2;
+}
+
+td {
+    background-color: #e4e4e4;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.td__header {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #A4A9B9;
+}
+
+input[type="checkbox"] {
+    accent-color: #0D5ADC;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.btn__chevron {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card_footer {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card_modal {
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-height: 230px;
+    overflow-y: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+.card_modal__search {
+    font-weight: 400;
+    font-size: 24px;
+    color: #C1C1C1;
+    padding: 16px 20px;
+    border-radius: 4px;
+    border: 1px solid #C1C1C1;
+    outline: none;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.card_modal__search::placeholder {
+    color: #C1C1C1;
+}
+
+.card_modal__phones {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card_modal__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn__arrows {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: transparent;
+}
