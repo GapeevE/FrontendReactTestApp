@@ -10,6 +10,13 @@ This is a Single Page Application (SPA) built with React and TypeScript for comp
 
 * Filter to show only differing specifications
 
+
+## Live Demo
+
+Check out the live demo of the application:
+
+[View Demo](https://frontend-react-test-app-neon.vercel.app)
+
 ## Installation
 
 1. Clone this repository
